@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    max-width: 720px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    max-width: 720px;
+    height: 336px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    max-width: 720px;
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.companieCard {
+    background-image: url(/sources/cardGloboDesk.png);
+    position:absolute;
+    z-index:-1;
+    max-width: 720px;
+    height: 336px;
+}
+
+.divider {
+    background-color: #F2E0CA;
+    max-width: 720px;
+    height: 2px;
+    border-radius: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heart {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.lastJobContent {
+    max-width: 414px;
+    height: 272px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.profile {
+    padding-left: 32px;
+    padding-top: 32px;
+}
