@@ -27,12 +27,20 @@ footer {
     align-items: center;
 }
 
-.companieCard {
+.companieCardPrincipal {
     background-image: url(/sources/cardGloboDesk.png);
     position:absolute;
     z-index:-1;
     max-width: 720px;
     height: 336px;
+}
+
+.companieCardOther {
+    background-image: url(/sources/cardGloboDesk.png);
+    position:absolute;
+    z-index:-1;
+    max-width: 324px;
+    height: 508px;
 }
 
 .divider {
