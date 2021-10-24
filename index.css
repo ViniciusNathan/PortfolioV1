@@ -1,60 +1,63 @@
 body {
     font-family: 'Inter', sans-serif;
+    color: #0F1115;
+    margin: auto;
+    max-width: 720px;
 }
 
 header {
-    max-width: 720px;
     height: 74px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-section {
-    max-width: 720px;
+h2 {
+    line-height: 24px;
+    margin: 0 0 16px 0;
+}
+
+.time {
+    opacity: 0.6;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0F1115;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: #0F1115;
+}
+
+a:hover {
+    opacity: 0.4;
+  }
+
+.linkGlobo {
+    font-size: 12px;
+    margin-top: 32px;
+}
+
+.profile {
     height: 336px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 72px;
+    position: relative;
+    top: 104px;
+    bottom: 104px;
+    padding-left: 32px;
 }
 
-footer {
-    max-width: 720px;
-    height: 42px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.profileContent {
+    max-width: 414px;
 }
 
 .companieCardPrincipal {
     background-image: url(/sources/cardGloboDesk.png);
     position:absolute;
     z-index:-1;
-    max-width: 720px;
     height: 336px;
-}
-
-.companieCardOther {
-    background-image: url(/sources/cardGloboDesk.png);
-    position:absolute;
-    z-index:-1;
-    max-width: 324px;
-    height: 508px;
-}
-
-.divider {
-    background-color: #F2E0CA;
-    max-width: 720px;
-    height: 2px;
-    border-radius: 1px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.heart {
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 .lastJobContent {
@@ -64,7 +67,62 @@ footer {
     padding-top: 32px;
 }
 
-.profile {
+.pastJob {
+    height: 509px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-columns: 324px 324px;
+    justify-content: space-between;
+}
+
+.companieCardVr .companieCardTry {
+    max-width: 324px;
+    height: 509px;
+}
+
+.imgVr {
+    background-image: url(/sources/cardVrDesk.png);
+    position:absolute;
+    z-index:-1;
+    max-width: 324px;
+    height: 509px;
+}
+
+.imgTry {
+    background-image: url(/sources/cardVrDesk.png);
+    position:absolute;
+    z-index:-1;
+    max-width: 324px;
+    height: 509px;
+}
+
+.pastJobContent {
+    max-width: 260px;
+    height: 336px;
     padding-left: 32px;
-    padding-top: 32px;
+    padding-top: 110px;
+    /* Ajustar inclusão
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;*/
+}
+
+.divider {
+    background-color: #F2E0CA;
+    height: 2px;
+    border-radius: 1px;
+}
+
+footer {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    padding-left: 8px;
+    padding-right: 8px;
 }

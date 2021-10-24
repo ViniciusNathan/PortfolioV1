@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- Glad to see you here, feel free to look at the code and give some feedback (: -->
     <head>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
@@ -18,50 +19,62 @@
         </header>
 
         <section class='profile'>
-            <h2>Product Designer at Globo</h2>
-            <p>Olá! Aqui você vai encontrar um pouco mais sobre minhas experiências profissionais. Este é um site WIP</p>
-            <a href="https://twitter.com/ViniNathan">Twitter</a>
-            <a href="mailto:hey@vini.work">Send e-mail</a>
+            <div class='profileContent'>
+                <h2>Product Designer at Globo</h2>
+                <p>Olá! Aqui você vai encontrar um pouco mais sobre minhas experiências profissionais. Este é um site está em eterna construção. Qualquer dúvida ou sugestão, entre em contato.</p>
+                <a href="https://twitter.com/ViniNathan" target="_blank">Twitter</a>
+                <a href="mailto:hey@vini.work">Envie um e-mail</a>
+            </div>
         </section>
 
         <section class='lastJob'>
             <img class='companieCardPrincipal' src="sources/cardGloboDesk.png" alt="Company logo with gradient colors">
             <div class='lastJobContent'>
                 <h2>Globo</h2>
-                <p>2020 | At the moment</p>
+                <p class='time'>2020 | Até o momento</p>
                 <p>Impactando diariamente mais de 100 milhões de brasileiros e milhares de pessoas ao redor do mundo.<br>Proporcionando a melhor experiência em consumo de publicidade para contéudos de notícias, esportes, entreternimento e streaming.</p>
+                <div class='linkGlobo'>
+                    <a href="https://globo.com" target="_blank">Globo.com</a>
+                    <a href="https://g1.globo.com" target="_blank">G1</a> |
+                    <a href="https://ge.globo.com" target="_blank">GE</a> |
+                    <a href="https://ge.globo.com/cartola-fc" target="_blank">Cartola</a> |
+                    <a href="https://globoplay.globo.com" target="_blank">Globoplay</a> |
+                    <a href="https://gshow.globo.com/" target="_blank">Gshow</a> |
+                    <a href="https://receitas.globo.com" target="_blank">Receitas</a> |
+                </div>
             </div>
         </section>
 
         <section class='pastJob'>
-            <img class='companieCardOther' src='sources/cardVrDesk.png' alt="Company logo with gradient colors">
-            <div>
-                <h2>VR Benefícios</h2>
-                <p>2020 | 2019</p>
-                <p>Participando desde o momento estratégico da concepção do serviço. Trazendo uma visão holística com jornadas e personas através de pesquisas qualitativas e quantitativas combinadas com dinâmicas em grupo para engajar o time e construirmos soluções inovadoras.</p>
-                <a href="https://vr.com.br">vr.com.br</a>
-            </div>
-        </section>
-
-        <section class='pastJob'>
-            <img class='companieCardOther' src='sources/cardTryDesk.png' alt="Company logo with gradient colors">
-            <div>
-                <h2>Try Consultoria</h2>
-                <p>2019 | 2018</p>
-                <p>Desenvolvendo pesquisas de imersão, análise de mercado, prototipação de produtos e testes de usabilidade. Tudo isso com muito foco em entregar a melhor experiência para o usuário de forma ágil.</p>
-                <a href="https://try.com.br">try.com.br</a>
-            </div>
-        </section>
+                <div class='companieCardVr'>
+                    <img class='imgVr' src='sources/cardVrDesk.png' alt="Company logo with gradient colors">
+                    <div class='pastJobContent'>
+                        <h2>VR Benefícios</h2>
+                        <p class='time'>2020 | 2019</p>
+                        <p>Participando desde o momento estratégico da concepção do serviço. Trazendo uma visão holística com jornadas e personas através de pesquisas qualitativas e quantitativas combinadas com dinâmicas em grupo para engajar o time e construirmos soluções inovadoras.</p>
+                        <a href="https://vr.com.br" target="_blank">vr.com.br</a>
+                    </div>
+                </div>
+                <div class='companieCardTry'>
+                    <img class='imgTry' src='sources/cardTryDesk.png' alt="Company logo with gradient colors">
+                    <div class='pastJobContent'>
+                        <h2>Try Consultoria</h2>
+                        <p class='time'>2019 | 2018</p>
+                        <p>Desenvolvendo pesquisas de imersão, análise de mercado, prototipação de produtos e testes de usabilidade. Tudo isso com muito foco em entregar a melhor experiência para o usuário de forma ágil.</p>
+                        <a href="https://try.com.br" target="_blank">try.com.br</a>
+                    </div>
+                </div>
+        </section> 
 
         <div class='divider'></div>
 
         <footer>
             
-            <p>Built by me with</p>
+            <p>Feito por mim com</p>
             <svg class='heart' width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.74116 9.10233C2.99353 8.42526 1.83398 7.28539 1.04465 5.93516C-0.0401897 4.07943 0.546101 1.67245 2.35417 0.559008C4.11256 -0.523837 6.37893 0.0155443 7.5 1.75293C8.62107 0.0155443 10.8874 -0.523837 12.6458 0.559008C14.4539 1.67245 15.0402 4.07943 13.9553 5.93516C13.166 7.28539 12.0065 8.42526 11.2588 9.10233C10.2292 10.0348 8.77267 11.1031 7.5 12C6.20894 11.0901 4.91717 10.1673 3.74116 9.10233Z" fill="#AA6152"/>
             </svg>
-            <p>&copy 2021</p>
+            <p class='time'>&copy 2021</p>
 
         </footer>
     </body>
