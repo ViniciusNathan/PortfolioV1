@@ -54,10 +54,8 @@ a:hover {
 }
 
 .companieCardPrincipal {
-    background-image: url(/sources/cardGloboDesk.png);
-    position:absolute;
-    z-index:-1;
-    height: 336px;
+    background-image: url(../Portfolio/sources/cardGloboDesk.png);
+    background-size: cover;
 }
 
 .lastJobContent {
@@ -82,19 +80,13 @@ a:hover {
 }
 
 .imgVr {
-    background-image: url(/sources/cardVrDesk.png);
-    position:absolute;
-    z-index:-1;
-    max-width: 324px;
-    height: 509px;
+    background-image: url(../Portfolio/sources/cardVrDesk.png);
+    background-size: 324px 509px;
 }
 
 .imgTry {
-    background-image: url(/sources/cardVrDesk.png);
-    position:absolute;
-    z-index:-1;
-    max-width: 324px;
-    height: 509px;
+    background-image: url(../Portfolio/sources/cardTryDesk.png);
+    background-size: 324px 509px;
 }
 
 .pastJobContent {
@@ -102,10 +94,6 @@ a:hover {
     height: 336px;
     padding-left: 32px;
     padding-top: 110px;
-    /* Ajustar inclusão
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;*/
 }
 
 .divider {
