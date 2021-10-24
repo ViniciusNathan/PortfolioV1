@@ -54,7 +54,7 @@ a:hover {
 }
 
 .companieCardPrincipal {
-    background-image: url(https://github.com/ViniciusNathan/PortfolioV1/blob/master/sources/cardGloboDesk.png);
+    background-image: url(/sources/cardGloboDesk.png);
     background-size: cover;
 }
 
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .imgTry {
-    background-image: url(../PortfolioV1/sources/cardTryDesk.png);
+    background-image: url(/sources/cardTryDesk.png);
     background-size: 324px 509px;
 }
 
