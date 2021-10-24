@@ -80,7 +80,7 @@ a:hover {
 }
 
 .imgVr {
-    background-image: url(../PortfolioV1/sources/cardVrDesk.png);
+    background-image: url(/sources/cardVrDesk.png);
     background-size: 324px 509px;
 }
 
