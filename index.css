@@ -1,116 +1,120 @@
 body {
-    font-family: 'Inter', sans-serif;
-    color: #0F1115;
-    margin: auto;
-    max-width: 720px;
+  font-family: 'Inter', sans-serif;
+  color: #0F1115;
+  margin: auto;
+  max-width: 720px;
 }
 
 header {
-    height: 74px;
+  height: 74px;
 }
 
 h2 {
-    line-height: 24px;
-    margin: 0 0 16px 0;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+
+.actualJob {
+  font-size: 24px !important;
 }
 
 .time {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 a:link {
-    text-decoration: none;
-    color: #0F1115;
-    font-size: 12px;
-    display: inline-block;
-    margin-right: 4px;
+  text-decoration: none;
+  color: #0F1115;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 4px;
   }
 
 a:visited {
-    text-decoration: none;
-    color: #0F1115;
+  text-decoration: none;
+  color: #0F1115;
 }
 
 a:hover {
-    opacity: 0.4;
+  opacity: 0.4;
   }
 
 .linkGlobo {
-    font-size: 12px;
-    margin-top: 32px;
+  font-size: 12px;
+  margin-top: 32px;
 }
 
 .profile {
-    height: 336px;
-    margin-bottom: 72px;
-    position: relative;
-    top: 104px;
-    bottom: 104px;
-    padding-left: 32px;
+  height: 336px;
+  margin-bottom: 72px;
+  position: relative;
+  top: 104px;
+  bottom: 104px;
+  padding-left: 32px;
 }
 
 .profileContent {
-    max-width: 414px;
+  max-width: 414px;
 }
 
 .companieCardPrincipal {
-    background-image: url(/sources/cardGloboDesk.png);
-    background-size: cover;
+  background-image: url(/sources/cardGloboDesk.png);
+  background-size: cover;
 }
 
 .lastJobContent {
-    max-width: 414px;
-    height: 272px;
-    padding-left: 32px;
-    padding-top: 32px;
+  max-width: 414px;
+  height: 272px;
+  padding-left: 32px;
+  padding-top: 32px;
 }
 
 .pastJob {
-    height: 509px;
-    margin-top: 72px;
-    margin-bottom: 72px;
-    display: grid;
-    grid-template-columns: 324px 324px;
-    justify-content: space-between;
+  height: 509px;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  display: grid;
+  grid-template-columns: 324px 324px;
+  justify-content: space-between;
 }
 
 .companieCardVr .companieCardTry {
-    max-width: 324px;
-    height: 509px;
+  max-width: 324px;
+  height: 509px;
 }
 
 .imgVr {
-    background-image: url(/sources/cardVrDesk.png);
-    background-size: 324px 509px;
+  background-image: url(/sources/cardVrDesk.png);
+  background-size: 324px 509px;
 }
 
 .imgTry {
-    background-image: url(/sources/cardTryDesk.png);
-    background-size: 324px 509px;
+  background-image: url(/sources/cardTryDesk.png);
+  background-size: 324px 509px;
 }
 
 .pastJobContent {
-    max-width: 260px;
-    height: 336px;
-    padding-left: 32px;
-    padding-top: 110px;
+  max-width: 260px;
+  height: 336px;
+  padding-left: 32px;
+  padding-top: 110px;
 }
 
 .divider {
-    background-color: #F2E0CA;
-    height: 2px;
-    border-radius: 1px;
+  background-color: #F2E0CA;
+  height: 2px;
+  border-radius: 1px;
 }
 
 footer {
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .heart {
-    padding-left: 8px;
-    padding-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
